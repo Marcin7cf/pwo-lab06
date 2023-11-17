@@ -1,7 +1,18 @@
 package pwo.app;
 
+/**
+ * Klasa służąca do tworzenia obiektów klasy SeqToFileApp <br>
+ * lub SeqToOutApp w zależności od parametrów podanych przy <br>
+ * uruchamianiu programu
+ *
+ * @author Marcin
+ * @version 1.0.0
+ */
 public class Sequence {
 
+    /**
+     * Funkcja uruchomieniowa aplikacji
+     */
     public static void main(String[] args) {
 
         switch (args.length) {

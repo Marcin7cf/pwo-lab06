@@ -15,7 +15,9 @@ abstract class Generator implements SequenceGenerator {
     public void reset() {
         lastIndex = 0;
     }
-
+    /**
+     *  Metoda służąca do pobierania wyrazu ciągu
+     */
     @Override
     public final BigDecimal getTerm(int i) {
         if (i < 0)
